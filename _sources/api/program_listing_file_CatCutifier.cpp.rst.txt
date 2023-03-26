@@ -1,0 +1,18 @@
+
+.. _program_listing_file_CatCutifier.cpp:
+
+Program Listing for File CatCutifier.cpp
+========================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_CatCutifier.cpp>` (``CatCutifier.cpp``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #include "CatCutifier.h"
+   
+   void cat::make_cute()
+   {
+       // Magic happens
+   }

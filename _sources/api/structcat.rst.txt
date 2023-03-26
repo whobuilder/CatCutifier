@@ -1,0 +1,17 @@
+.. _exhale_struct_structcat:
+
+Struct cat
+==========
+
+- Defined in :ref:`file_CatCutifier.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: cat
+   :project: CatCutifier
+   :members:
+   :protected-members:
+   :undoc-members:

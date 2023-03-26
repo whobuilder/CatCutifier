@@ -1,0 +1,21 @@
+
+.. _program_listing_file_CatCutifier.h:
+
+Program Listing for File CatCutifier.h
+======================================
+
+|exhale_lsh| :ref:`Return to documentation for file <file_CatCutifier.h>` (``CatCutifier.h``)
+
+.. |exhale_lsh| unicode:: U+021B0 .. UPWARDS ARROW WITH TIP LEFTWARDS
+
+.. code-block:: cpp
+
+   #ifndef SRC_CATCUTIFIER_H
+   #define SRC_CATCUTIFIER_H
+   
+   struct cat
+   {
+       void make_cute();
+   };
+   
+   #endif /* SRC_CATCUTIFIER_H */
