@@ -1,4 +1,6 @@
 breathe==4.34.0
 sphinx==4.5.0
-sphinx_book_theme
+importlib-metadata==6.0.0
+pydata-sphinx-theme==0.8.1
+sphinx-book-theme==0.3.3
 exhale
