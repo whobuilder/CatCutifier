@@ -45,5 +45,6 @@ exhale_args = {
 # Configuration for the theme
 html_theme = "sphinx_book_theme"
 html_theme_options = {
-    "use_repository_button": False}
+    "repository_url": "https://github.com/whobuilder/CatCutifier",
+    "use_repository_button": True}
 
