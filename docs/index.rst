@@ -10,9 +10,8 @@ Welcome to CatCutifier's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-.. doxygenstruct:: cat
-   :members:
+   self
+   api/library_root
 
 Indices and tables
 ==================
