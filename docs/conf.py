@@ -27,16 +27,23 @@ author = "whobuilder"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ["breathe"]
+extensions = [ "breathe", "exhale" ]
 
-# Breathe Configuration
-breathe_default_project = "CatCutifier"
+# Configuration for the breathe extension
+# Which directory to read the Doxygen output from
 breathe_projects = {"CatCutifier":"xml"}
+breathe_default_project = "CatCutifier"
 
-# -- Options for HTML output -------------------------------------------------
+# Configuration for the exhale extensions
+exhale_args = {
+    "containmentFolder": "./api",
+    "doxygenStripFromPath": "../src",
+    "rootFileName": "library_root.rst",
+    "rootFileTitle": "Library API",
+}
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
+# Configuration for the theme
 html_theme = "sphinx_book_theme"
+html_theme_options = {
+    "use_repository_button": False}
 
